@@ -74,3 +74,11 @@ order(2000,()=>console.log(`${stocks.Fruits[0]} was selected`))
 .then(()=>{
   return order(2000, ()=>console.log("Serve Ice Cream"))
 })
+
+.catch(()=>{
+    console.log("Customer left")
+  })
+
+  .finally(()=>{
+    console.log("end of day")
+  })
