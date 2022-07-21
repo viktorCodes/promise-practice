@@ -1,7 +1,10 @@
-console.log (" I ");
+// CREATE A STOCKS OBJECT
 
-setTimeout(() => {
-    console.log("eat")
-});
+let stocks = {
+    Fruits: ["strawberry", "grapes", "banana", "apple"],
+    liquid: ["water", "ice"],
+    holder: ["cone", "cup", "stick"],
+    toppings: ["chocolate", "peanuts"]
+}
 
-console.log(" Ice Cream")
+//CREATE FUNCTIONS
